@@ -31,6 +31,10 @@
   @include headers();
 }
 
+.header1:hover{
+  transition: gray 1s ease;
+}
+
 .box2 {
   @include boxes;
 }
@@ -39,10 +43,18 @@
   @include headers();
 }
 
+.header2:hover{
+  transition: gray 1s ease;
+}
+
 .box3 {
   @include boxes;
 }
 
 .header3 {
   @include headers();
+}
+
+.header3:hover{
+  transition: gray 1s ease;
 }
