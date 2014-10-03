@@ -5,16 +5,18 @@
 // Custom Styles
 @mixin boxes (){
   width: 660px;
-  height: 100px;
+  height: 215px;
   padding-top: 5px;
-  margin-top: 25px;
-  margin-left: 10px;
+  border: 1px gray solid;
+  margin-top: 20px;
+  margin-left: 27px;
   background-color: white;
 }
 
 .mainBox {
-  width: 700px;
+  width: 720px;
   height: auto;
+  padding-top:37px;
   margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
@@ -67,6 +69,7 @@ section {
 }
 
 .one {
-  height: 200px;
-  width: 700px;
+  width: 720px;
+  height: 310px;
+
 }
