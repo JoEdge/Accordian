@@ -1,10 +1,11 @@
  // Bourbon & Neat
-// @import '../../bower_components/bourbon/dist/bourbon';
-// @import '../../bower_components/neat/app/assets/stylesheets/neat';
+@import '../../bower_components/bourbon/dist/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
 
 // Custom Styles
 @mixin boxes (){
   width: 700px;
+  height: 200px;
   border: 1px solid hsla(185, 100%, 46%, 1);
   background-color: white;
 }
@@ -28,11 +29,11 @@
   @include boxes;
 }
 
-.h2 {
+h2 {
+  display:block;
   height: 50px;
   margin: 0px;
-  display:block;
-  background-color: yellow
+  background-color: hsla(185, 100%, 46%, 1);
 }
 
 .p {
@@ -41,8 +42,9 @@
 }
 
 section {
-  height:30px;
+  height:50px;
   overflow:hidden;
+  border: 1px solid hsla(185, 100%, 46%, 1);
   background-color:gray;
 }
 
