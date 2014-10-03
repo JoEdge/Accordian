@@ -1,60 +1,53 @@
  // Bourbon & Neat
-@import '../../bower_components/bourbon/dist/bourbon';
-@import '../../bower_components/neat/app/assets/stylesheets/neat';
+// @import '../../bower_components/bourbon/dist/bourbon';
+// @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
 // Custom Styles
 @mixin boxes (){
-  width: 400px;
-  height: 200px;
+  width: 700px;
   border: 1px solid hsla(185, 100%, 46%, 1);
   background-color: white;
 }
 
-@mixin headers(){
-  width: 400px;
-  height: 50px;
-  background-color: hsla(185, 100%, 46%, 1);
-}
-
 .mainBox {
-  width: 400px;
-  height: 600px;
+  width: 700px;
+  height: auto;
   margin-right:auto;
   margin-left:auto;
 }
 
 .box1 {
- @include boxes();
-}
-
-.header1 {
-  @include headers();
-}
-
-.header1:hover{
-  transition: gray 1s ease;
+ @include boxes;
 }
 
 .box2 {
   @include boxes;
 }
 
-.header2 {
-  @include headers();
-}
-
-.header2:hover{
-  transition: gray 1s ease;
-}
-
 .box3 {
   @include boxes;
 }
 
-.header3 {
-  @include headers();
+.h2 {
+  height: 50px;
+  margin: 0px;
+  display:block;
+  background-color: yellow
 }
 
-.header3:hover{
-  transition: gray 1s ease;
+.p {
+  padding: 10px;
+  margin-top:5px;
+}
+
+section {
+  height:30px;
+  overflow:hidden;
+  background-color:gray;
+}
+
+.one {
+  height:200px;
+  width:700px;
+  background-color:red;
 }
