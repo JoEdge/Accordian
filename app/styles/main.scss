@@ -4,9 +4,11 @@
 
 // Custom Styles
 @mixin boxes (){
-  width: 700px;
-  height: 200px;
-  margin-left: 15px;
+  width: 660px;
+  height: 100px;
+  padding-top: 5px;
+  margin-top: 25px;
+  margin-left: 10px;
   background-color: white;
 }
 
@@ -16,6 +18,12 @@
   margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
+}
+
+body {
+  height: 37px;
+  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSexYNWe0et1W4z-m8bSewUh5d6uuIyux_U-pKhFQrlwGoS8gdFnA");
+  background-size: contain;
 }
 
 .box1 {
@@ -36,7 +44,9 @@ h2 {
   padding-top: 10px;
   padding-left: 15px;
   margin: 0px;
+  color: white;
   background-color: hsla(185, 100%, 46%, 1);
+  font-family: 'Trade Winds', cursive;
 }
 
 h2:hover {
@@ -44,7 +54,7 @@ h2:hover {
 }
 
 
-.p {
+p {
   margin-left: 15px;
   margin-top:5px;
 }
