@@ -1,14 +1,23 @@
+/*
+$(document).ready(function(){
 
+if $('.header1').is('click') ) {
+  $('div').remove('.box2 .box3');
 
-if ($('.header1').is('click') ) {
-  $('.box2').remove();
-  $('.box3').remove();
 } else if
   ($('.header2').is('click') ) {
-    $('.box1').remove();
-    $('.box3').remove();
+    $('div').remove('.box1 .box3');
+
 } else if
    ($('.header3').is('click') ) {
-    $('.box1').remove();
-    $('.box2').remove();
-};
+    $('div').remove('.box1 .box2');
+}
+
+});
+*/
+
+$('.header1').click(function(){
+  $('.box2').remove();
+  $('.box3').remove();
+
+ });
