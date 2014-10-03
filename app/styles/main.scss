@@ -6,15 +6,16 @@
 @mixin boxes (){
   width: 700px;
   height: 200px;
-  border: 1px solid hsla(185, 100%, 46%, 1);
+  margin-left: 15px;
   background-color: white;
 }
 
 .mainBox {
   width: 700px;
   height: auto;
-  margin-right:auto;
-  margin-left:auto;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .box1 {
@@ -30,26 +31,32 @@
 }
 
 h2 {
-  display:block;
+  display: block;
   height: 50px;
+  padding-top: 10px;
+  padding-left: 15px;
   margin: 0px;
   background-color: hsla(185, 100%, 46%, 1);
 }
 
+h2:hover {
+  background-color: hsla(184, 100%, 42%, 1);
+}
+
+
 .p {
-  padding: 10px;
+  margin-left: 15px;
   margin-top:5px;
 }
 
 section {
-  height:50px;
-  overflow:hidden;
-  border: 1px solid hsla(185, 100%, 46%, 1);
-  background-color:gray;
+  height: 50px;
+  overflow: hidden;
+  border: 1px solid hsla(188, 100%, 46%, 1);
+  transition: all 1s ease;
 }
 
 .one {
-  height:200px;
-  width:700px;
-  background-color:red;
+  height: 200px;
+  width: 700px;
 }
